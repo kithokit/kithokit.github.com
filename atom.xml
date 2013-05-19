@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Skycube Blog2]]></title>
+  <title><![CDATA[Kit Blog]]></title>
   <link href="http://kithokit.github.io/atom.xml" rel="self"/>
   <link href="http://kithokit.github.io/"/>
-  <updated>2013-05-19T22:19:12+08:00</updated>
+  <updated>2013-05-19T22:21:05+08:00</updated>
   <id>http://kithokit.github.io/</id>
   <author>
-    <name><![CDATA[Kit Ho (kithokit)]]></name>
+    <name><![CDATA[Your Name]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
@@ -18,7 +18,7 @@
     <link href="http://kithokit.github.io/blog/2013/05/19/testing2/"/>
     <updated>2013-05-19T22:19:00+08:00</updated>
     <id>http://kithokit.github.io/blog/2013/05/19/testing2</id>
-    <content type="html"><![CDATA[
+    <content type="html"><![CDATA[<p>BLah hahahahah</p>
 ]]></content>
   </entry>
   
