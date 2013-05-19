@@ -1,0 +1,7 @@
+---
+layout: post
+title: "testing3"
+date: 2013-05-19 22:45
+comments: true
+categories: 
+---
