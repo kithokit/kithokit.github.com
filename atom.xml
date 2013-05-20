@@ -4,7 +4,7 @@
   <title><![CDATA[Skycube Blog]]></title>
   <link href="http://kithokit.github.io/atom.xml" rel="self"/>
   <link href="http://kithokit.github.io/"/>
-  <updated>2013-05-21T00:31:41+08:00</updated>
+  <updated>2013-05-21T00:59:26+08:00</updated>
   <id>http://kithokit.github.io/</id>
   <author>
     <name><![CDATA[Kit Ho (kithokit)]]></name>
@@ -18,7 +18,13 @@
     <link href="http://kithokit.github.io/blog/2013/05/20/test4/"/>
     <updated>2013-05-20T23:44:00+08:00</updated>
     <id>http://kithokit.github.io/blog/2013/05/20/test4</id>
-    <content type="html"><![CDATA[<p>actaully we need to wait for a while for new post or new delete post</p>
+    <content type="html"><![CDATA[<p>I found that when we work on Octopress with Github Pages
+after I make a new post and run rake deploy
+It doesn&rsquo;t take effect immeditaely.
+Actaully we need to wait for a while for new post or new delete post or _config.yml
+However, for editing a current file, it will take the effect automatically.</p>
+
+<p>We need to beware of that</p>
 ]]></content>
   </entry>
   
