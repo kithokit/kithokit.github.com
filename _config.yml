@@ -3,7 +3,7 @@
 # ----------------------- #
 
 url: http://kithokit.github.io
-title: Skycube Blog2
+title: Skycube Blog
 subtitle: What are you waiting for?
 author:  Kit Ho (kithokit)
 simple_search: http://google.com/search
@@ -63,13 +63,13 @@ default_asides: [asides/recent_posts.html, asides/github.html, asides/delicious.
 # ----------------------- #
 
 # Github repositories
-github_user:
+github_user: kithokit
 github_repo_count: 0
 github_show_profile_link: true
 github_skip_forks: true
 
 # Twitter
-twitter_user:
+twitter_user: kithokit
 twitter_tweet_button: true
 
 # Google +1
