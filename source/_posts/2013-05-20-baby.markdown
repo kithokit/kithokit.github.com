@@ -1,7 +1,0 @@
----
-layout: post
-title: "baby"
-date: 2013-05-20 12:34
-comments: true
-categories: 
----
