@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "test4"
+title: "Octopress not sync with git hub?"
 date: 2013-05-20 23:44
 comments: true
 categories: 
 ---
+actaully we need to wait for a while for new post or new delete post
