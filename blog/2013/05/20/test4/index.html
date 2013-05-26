@@ -3,17 +3,17 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Octopress not sync with git hub? - Skycube Blog</title>
+	<title>Octopress not sync with git hub? - Skycube</title>
 	<meta name="author" content="Kit Ho (kithokit)">
 
 	
 	<meta name="description" content="I found that when we work on Octopress with Github Pages
 after I make a new post and run rake deploy
-It doesn&rsquo;t take effect immeditaely. &hellip;">
+It doesn&rsquo;t take effect immediately. &hellip;">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-	<link href="/atom.xml" rel="alternate" title="Skycube Blog" type="application/atom+xml">
+	<link href="" rel="alternate" title="Skycube" type="application/atom+xml">
 	<link rel="canonical" href="">
 	<link href="/favicon.png" rel="shortcut icon">
 	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
@@ -23,9 +23,11 @@ It doesn&rsquo;t take effect immeditaely. &hellip;">
 </head>
 
 <body>
-	<header id="header" class="inner"><h1><a href="/">Skycube Blog</a></h1>
+	<header id="header" class="inner"><h1><a href="/">Skycube</a></h1>
 <nav id="main-nav"><ul class="main">
-	<li><a href="/">Blog</a></li>
+	<li><a href="/">Code</a></li>
+	<li><a href="/life-style">LifeStyle</a></li>
+	<li><a href="/about-me">About Me</a></li>
 	<li><a href="/blog/archives">Archives</a></li>
 </ul>
 </nav>
@@ -33,7 +35,9 @@ It doesn&rsquo;t take effect immeditaely. &hellip;">
 	<div class="alignleft menu">
 		<a class="button">Menu</a>
 		<div class="container"><ul class="main">
-	<li><a href="/">Blog</a></li>
+	<li><a href="/">Code</a></li>
+	<li><a href="/life-style">LifeStyle</a></li>
+	<li><a href="/about-me">About Me</a></li>
 	<li><a href="/blog/archives">Archives</a></li>
 </ul>
 </div>
@@ -64,13 +68,27 @@ It doesn&rsquo;t take effect immeditaely. &hellip;">
 		
 		
 		
-		<a class="rss" href="/atom.xml" title="RSS">RSS</a>
-		
+    <style>.ig-b- { display: inline-block; }
+           .ig-b- img { visibility: hidden; }
+           .ig-b-16 { width: 16px; 
+                      height: 16px; 
+                      background: url(//badges.instagram.com/static/images/ig-badge-sprite-16.png) no-repeat 6px 6px;
+                      background-color: black;
+            }
+           @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+          .ig-b-16 { 
+            background-image: url(//badges.instagram.com/static/images/ig-badge-sprite-16@2x.png); 
+            background-size: 60px 178px; }
+          }
+    </style>
+    <a class="ig-b- ig-b-16" href="http://instagram.com/kithokit2?ref=badge" title="Instagram"><img src="//badges.instagram.com/static/images/ig-badge-16.png" alt="Instagram" /></a>
 	</div>
+  <!--
 	<form class="search" action="http://google.com/search" method="get">
 		<input class="alignright" type="text" name="q" results="0">
 		<input type="hidden" name="q" value="site:kithokit.github.io">
 	</form>
+  -->
 </nav>
 
 </header>
@@ -80,12 +98,12 @@ It doesn&rsquo;t take effect immeditaely. &hellip;">
 	<div id="content" class="inner"><article class="post">
 	<h2 class="title">Octopress Not Sync With Git Hub?</h2>
 	<div class="entry-content"><p>I found that when we work on Octopress with Github Pages
-after I make a new post and run rake deploy
-It doesn&rsquo;t take effect immeditaely.
-Actaully we need to wait for a while for new post or new delete post or _config.yml
+after I make a new post and run <code>rake deploy</code>
+It doesn&rsquo;t take effect immediately.
+Actaully we need to wait for a while for <code>new post</code> or <code>new delete post</code> or <code>_config.yml</code>
 However, for editing a current file, it will take the effect automatically.</p>
 
-<p>We need to beware of that</p>
+<p>We need to beware of that.</p>
 </div>
 
 
@@ -105,7 +123,13 @@ However, for editing a current file, it will take the effect automatically.</p>
 <time datetime="2013-05-20T23:44:00+08:00" pubdate data-updated="true">May 20<span>th</span>, 2013</time></div>
 	<div class="tags">
 
+
+	<a class='category' href='/blog/categories/technology/'>technology</a>, <a class='category' href='/blog/categories/tools/'>tools</a>
+
+
 </div>
+	
+		<div class="comments"><a href="/blog/2013/05/20/test4/#disqus_thread">Comments</a></div>
 	
 </div></article>
 
@@ -126,6 +150,12 @@ However, for editing a current file, it will take the effect automatically.</p>
 </div>
 
 
+
+<section id="comment">
+    <h2 class="title">Comments</h2>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+</section>
 </div>
 	<footer id="footer" class="inner">Copyright &copy; 2013
 
@@ -140,6 +170,22 @@ However, for editing a current file, it will take the effect automatically.</p>
 })(jQuery);
 </script> <!-- Delete or comment this line to disable Fancybox -->
 
+
+<script type="text/javascript">
+      var disqus_shortname = 'kithokit';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://kithokit.github.io/blog/2013/05/20/test4/';
+        var disqus_url = 'http://kithokit.github.io/blog/2013/05/20/test4/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
 
 
 
