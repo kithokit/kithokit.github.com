@@ -3,7 +3,7 @@
 # ----------------------- #
 
 url: http://kithokit.github.io
-title: Skycube Blog
+title: Skycube
 subtitle: What are you waiting for?
 author:  Kit Ho (kithokit)
 simple_search: http://google.com/search
@@ -16,7 +16,7 @@ description:
 date_format: "ordinal"
 
 # RSS / Email (optional) subscription links (change if using something like Feedburner)
-subscribe_rss: /atom.xml
+subscribe_rss: 
 subscribe_email:
 # RSS feeds can list your email address if you like
 email:
@@ -82,19 +82,20 @@ googleplus_user:
 googleplus_hidden: false
 
 # Pinboard
-pinboard_user:
+pinboard_user: 
 pinboard_count: 3
 
 # Delicious
-delicious_user:
+delicious_user: 
 delicious_count: 3
 
 # Disqus Comments
-disqus_short_name:
-disqus_show_comment_count: false
+disqus_short_name: kithokit
+disqus_show_comment_count: true
 
 # Google Analytics
 google_analytics_tracking_id:
 
-# Facebook Like
+# Facebook
+facebook_user: 
 facebook_like: true

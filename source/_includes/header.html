@@ -47,10 +47,26 @@
 		{% if site.subscribe_rss %}
 		<a class="rss" href="{{ site.subscribe_rss }}" title="RSS">RSS</a>
 		{% endif %}
+    <style>.ig-b- { display: inline-block; }
+           .ig-b- img { visibility: hidden; }
+           .ig-b-16 { width: 16px; 
+                      height: 16px; 
+                      background: url(//badges.instagram.com/static/images/ig-badge-sprite-16.png) no-repeat 6px 6px;
+                      background-color: black;
+            }
+           @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+          .ig-b-16 { 
+            background-image: url(//badges.instagram.com/static/images/ig-badge-sprite-16@2x.png); 
+            background-size: 60px 178px; }
+          }
+    </style>
+    <a class="ig-b- ig-b-16" href="http://instagram.com/kithokit2?ref=badge" title="Instagram"><img src="//badges.instagram.com/static/images/ig-badge-16.png" alt="Instagram" /></a>
 	</div>
+  <!--
 	<form class="search" action="{{ site.simple_search }}" method="get">
 		<input class="alignright" type="text" name="q" results="0">
 		<input type="hidden" name="q" value="site:{{ site.url | shorthand_url }}">
 	</form>
+  -->
 </nav>
 {% include custom/header.html %}
