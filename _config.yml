@@ -63,7 +63,7 @@ default_asides: [asides/gravatar.html, asides/recent_posts.html, asides/github.h
 # ----------------------- #
 
 # Github repositories
-github_user:
+github_user: kithokit
 github_repo_count: 0
 github_show_profile_link: false
 github_skip_forks: true
@@ -99,6 +99,9 @@ google_analytics_tracking_id:
 # Facebook
 facebook_user: 
 facebook_like: true
+
+# Instagram
+instagram_user: kithokit2
 
 # Gravatar
 gravatar_email: kithokit@gmail.com
