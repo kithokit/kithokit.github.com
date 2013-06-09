@@ -4,7 +4,7 @@
   <title><![CDATA[Skycube]]></title>
   <link href="http://kithokit.github.io/atom.xml" rel="self"/>
   <link href="http://kithokit.github.io/"/>
-  <updated>2013-05-27T01:14:19+08:00</updated>
+  <updated>2013-06-09T12:07:48+08:00</updated>
   <id>http://kithokit.github.io/</id>
   <author>
     <name><![CDATA[Kit Ho (kithokit)]]></name>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Octopress not sync with git hub?]]></title>
-    <link href="http://kithokit.github.io/blog/2013/05/20/test4/"/>
+    <link href="http://kithokit.github.io/blog/2013/05/20/git-hub-not-sync-with-octopress/"/>
     <updated>2013-05-20T23:44:00+08:00</updated>
-    <id>http://kithokit.github.io/blog/2013/05/20/test4</id>
+    <id>http://kithokit.github.io/blog/2013/05/20/git-hub-not-sync-with-octopress</id>
     <content type="html"><![CDATA[<p>I found that when we work on Octopress with Github Pages
 after I make a new post and run <code>rake deploy</code>
 It doesn&rsquo;t take effect immediately.
