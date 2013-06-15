@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: tools | Skycube]]></title>
-  <link href="http://kithokit.github.io/blog/categories/tools/atom.xml" rel="self"/>
+  <title><![CDATA[Category: chrome-extension | Skycube]]></title>
+  <link href="http://kithokit.github.io/blog/categories/chrome-extension/atom.xml" rel="self"/>
   <link href="http://kithokit.github.io/"/>
   <updated>2013-06-15T19:25:03+08:00</updated>
   <id>http://kithokit.github.io/</id>
@@ -55,21 +55,6 @@ function lite_header_modifier(details) {
 <p>}</p>
 
 <p>```</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Octopress not sync with git hub?]]></title>
-    <link href="http://kithokit.github.io/blog/2013/05/20/git-hub-not-sync-with-octopress/"/>
-    <updated>2013-05-20T23:44:00+08:00</updated>
-    <id>http://kithokit.github.io/blog/2013/05/20/git-hub-not-sync-with-octopress</id>
-    <content type="html"><![CDATA[<p>I found that when we work on Octopress with Github Pages
-after I make a new post and run <code>rake deploy</code>
-It doesn&rsquo;t take effect immediately.
-Actaully we need to wait for a while for <code>new post</code> or <code>new delete post</code> or <code>_config.yml</code>
-However, for editing a current file, it will take the effect automatically.</p>
-
-<p>We need to beware of that.</p>
 ]]></content>
   </entry>
   
