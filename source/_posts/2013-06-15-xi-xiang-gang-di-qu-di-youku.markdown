@@ -43,7 +43,8 @@ function new_random_ip() {
 
 ```
 
-加埋哩個EXTENSION 仲可以去除廣告！
+加埋哩個EXTENSION 仲可以去除廣告！!
+
 
 https://chrome.google.com/webstore/detail/%E5%9C%9F%E8%B1%86%E5%B9%BF%E5%91%8A%E5%8E%BB%E9%99%A4/eiejngbnffociggnndjfgpdcpifljjgf?hl=zh-TW
 
