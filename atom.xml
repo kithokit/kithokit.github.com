@@ -4,7 +4,7 @@
   <title><![CDATA[Skycube]]></title>
   <link href="http://kithokit.github.io/atom.xml" rel="self"/>
   <link href="http://kithokit.github.io/"/>
-  <updated>2013-06-15T19:25:03+08:00</updated>
+  <updated>2013-06-15T20:44:48+08:00</updated>
   <id>http://kithokit.github.io/</id>
   <author>
     <name><![CDATA[Kit Ho (kithokit)]]></name>
@@ -30,7 +30,7 @@
 
 <p>佢應該係把HTTP HEADER 個IP ADDRESS 換成中國的IP，這樣子就可以扮係係中國播快了！</p>
 
-<figure class='code'><figcaption><span>Modify X-Forwarded-For HTTP header</span><a href='https://github.com/whuhacker/Unblock-Youku/blob/master/chrome/header.js'>link</a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<figure class='code'><figcaption><span>Modify X-Forwarded-For HTTP header</span><a href='https://github.com/whuhacker/Unblock-Youku/blob/master/chrome/header.js'>github link</a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
 <span class='line-number'>4</span>
@@ -49,7 +49,7 @@
 
 
 
-<figure class='code'><figcaption><span>Using China IP prefix</span><a href='https://github.com/whuhacker/Unblock-Youku/blob/master/shared/tools.js'>link</a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<figure class='code'><figcaption><span>Using China IP prefix</span><a href='https://github.com/whuhacker/Unblock-Youku/blob/master/shared/tools.js'>github link</a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
 <span class='line-number'>4</span>
