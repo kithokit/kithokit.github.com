@@ -18,7 +18,7 @@ https://github.com/whuhacker/Unblock-Youku
 
 佢應該係把HTTP HEADER 個IP ADDRESS 換成中國的IP，這樣子就可以扮係係中國播快了！
 
-``` javascript Modify X-Forwarded-For HTTP header https://github.com/whuhacker/Unblock-Youku/blob/master/chrome/header.js
+``` javascript Modify X-Forwarded-For HTTP header https://github.com/whuhacker/Unblock-Youku/blob/master/chrome/header.js github link
 function lite_header_modifier(details) {
   details.requestHeaders.push({
           name: 'X-Forwarded-For',
@@ -29,7 +29,7 @@ function lite_header_modifier(details) {
 ```
 
 
-``` javascript Using China IP prefix https://github.com/whuhacker/Unblock-Youku/blob/master/shared/tools.js
+``` javascript Using China IP prefix https://github.com/whuhacker/Unblock-Youku/blob/master/shared/tools.js github link
 
 function new_random_ip() {
       var ip_addr = '220.181.111.';
