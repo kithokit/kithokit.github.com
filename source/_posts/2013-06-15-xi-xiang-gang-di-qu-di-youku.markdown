@@ -6,6 +6,10 @@ comments: true
 categories: ["chrome-extension", "tools"]
 ---
 
+之前我發覺成日都有這個播唔到的地區問題
+
+
+{% img left /images/blog/chinaban.png 600 600 'image' 'Location Banned' %}
 今日發現係香港係可以睇YOUKU 土豆的。
 解決方法係用CHROME EXTENSION
 
@@ -38,3 +42,4 @@ function new_random_ip() {
 }
 
 ```
+
