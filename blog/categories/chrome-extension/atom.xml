@@ -4,7 +4,7 @@
   <title><![CDATA[Category: chrome-extension | Skycube]]></title>
   <link href="http://kithokit.github.io/blog/categories/chrome-extension/atom.xml" rel="self"/>
   <link href="http://kithokit.github.io/"/>
-  <updated>2013-06-16T01:35:06+08:00</updated>
+  <updated>2013-06-16T01:35:56+08:00</updated>
   <id>http://kithokit.github.io/</id>
   <author>
     <name><![CDATA[Kit Ho (kithokit)]]></name>
@@ -59,7 +59,7 @@ function lite_header_modifier(details) {
 
 <p>```</p>
 
-<p>加埋哩個EXTENSION 仲可以去除廣告！</p>
+<p>加埋哩個EXTENSION 仲可以去除廣告！!</p>
 
 <p><a href="https://chrome.google.com/webstore/detail/%E5%9C%9F%E8%B1%86%E5%B9%BF%E5%91%8A%E5%8E%BB%E9%99%A4/eiejngbnffociggnndjfgpdcpifljjgf?hl=zh-TW">https://chrome.google.com/webstore/detail/%E5%9C%9F%E8%B1%86%E5%B9%BF%E5%91%8A%E5%8E%BB%E9%99%A4/eiejngbnffociggnndjfgpdcpifljjgf?hl=zh-TW</a></p>
 ]]></content>
