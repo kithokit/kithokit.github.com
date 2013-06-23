@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: linux | Skycube]]></title>
+  <link href="http://kithokit.github.io/blog/categories/linux/atom.xml" rel="self"/>
+  <link href="http://kithokit.github.io/"/>
+  <updated>2013-06-23T13:05:12+08:00</updated>
+  <id>http://kithokit.github.io/</id>
+  <author>
+    <name><![CDATA[Kit Ho (kithokit)]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Alias.sh]]></title>
+    <link href="http://kithokit.github.io/blog/2013/06/23/alias-dot-sh/"/>
+    <updated>2013-06-23T13:02:00+08:00</updated>
+    <id>http://kithokit.github.io/blog/2013/06/23/alias-dot-sh</id>
+    <content type="html"><![CDATA[<p>哩個網可以放上自已有用的alias 然後SHARE 比大家用
+有RATING system</p>
+
+<p><a href="http://alias.sh/">http://alias.sh/</a></p>
+
+<p>自已覺得幾有用</p>
+]]></content>
+  </entry>
+  
+</feed>
