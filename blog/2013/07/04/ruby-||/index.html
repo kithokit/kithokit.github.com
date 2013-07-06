@@ -3,7 +3,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Skycube</title>
+	<title>Ruby ||= operator - Skycube</title>
 	<meta name="author" content="Kit Ho (kithokit)">
 
 	
@@ -83,18 +83,9 @@ It is always confused with ruby newbie ||= will set the left-hand value to the r
 	
 		
 	
-	<div id="content" class="inner">
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2013/07/04/ruby-%7C%7C/">
-		
-			Ruby ||= Operator</a>
-	</h2>
-	<div class="entry-content">
-		<p>This topic is talked about ruby ||= and || operator
+	<div id="content" class="inner"><article class="post">
+	<h2 class="title">Ruby ||= Operator</h2>
+	<div class="entry-content"><p>This topic is talked about ruby ||= and || operator
 It is always confused with ruby newbie</p>
 
 <p><code>||=</code> will set the left-hand value to the right hand value only if the left-hand value is <code>falsey OR undefined</code>.</p>
@@ -176,10 +167,7 @@ if left hand side is <code>false/nil</code>, it will evaluate to right hand side
 
 
 <p>I wish you can find it useful!</p>
-
-		
-		
-	</div>
+</div>
 
 
 <div class="meta">
@@ -204,203 +192,34 @@ if left hand side is <code>false/nil</code>, it will evaluate to right hand side
 
 </div>
 	
-		<div class="comments"><a href="/blog/2013/07/04/ruby-%7C%7C//index.html#disqus_thread">Comments</a></div>
+		<div class="comments"><a href="/blog/2013/07/04/ruby-%7C%7C/#disqus_thread">Comments</a></div>
 	
 </div></article>
 
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2013/06/23/alias-dot-sh/">
-		
-			Alias.sh</a>
-	</h2>
-	<div class="entry-content">
-		<p>哩個網可以放上自已有用的alias 然後SHARE 比大家用
-有RATING system</p>
-
-<p><a href="http://alias.sh/">http://alias.sh/</a></p>
-
-<p>自已覺得幾有用</p>
-
-<p>Do you have your faviourite alais?</p>
-
-		
-		
+	<div class="share">
+	<div class="addthis_toolbox addthis_default_style ">
+	
+	<a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+	
+	
+	<a class="addthis_button_tweet"></a>
+	
+	
+	<a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
+	
+	<a class="addthis_counter addthis_pill_style"></a>
 	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-06-23T13:02:00+08:00" pubdate data-updated="true">Jun 23<span>rd</span>, 2013</time></div>
-	<div class="tags">
-
-
-	<a class='category' href='/blog/categories/linux/'>linux</a>
-
-
+  <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid="></script>
 </div>
-	
-		<div class="comments"><a href="/blog/2013/06/23/alias-dot-sh//index.html#disqus_thread">Comments</a></div>
-	
-</div></article>
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2013/06/15/xi-xiang-gang-di-qu-di-youku/">
-		
-			係香港地區睇youku</a>
-	</h2>
-	<div class="entry-content">
-		<p>之前我發覺成日都有這個播唔到的地區問題</p>
-
-<p><img class="left" src="/images/blog/chinaban.png" width="600" height="600" title="image" alt="Location Banned">
-今日發現係香港係可以睇YOUKU 土豆的。
-解決方法係用CHROME EXTENSION</p>
-
-<p><a href="https://chrome.google.com/webstore/detail/unblock-youku/pdnfnkhpgegpcingjbfihlkjeighnddk?hl=zh-TW">https://chrome.google.com/webstore/detail/unblock-youku/pdnfnkhpgegpcingjbfihlkjeighnddk?hl=zh-TW</a></p>
-
-<p>這樣子就可以解決地區播放問題了！</p>
-
-<p>source code:
-<a href="https://github.com/whuhacker/Unblock-Youku">https://github.com/whuhacker/Unblock-Youku</a></p>
-
-<p>佢應該係把HTTP HEADER 個IP ADDRESS 換成中國的IP，這樣子就可以扮係係中國播快了！</p>
-
-<figure class='code'><figcaption><span>Modify X-Forwarded-For HTTP header</span><a href='https://github.com/whuhacker/Unblock-Youku/blob/master/chrome/header.js'>github link</a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-</pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="kd">function</span> <span class="nx">lite_header_modifier</span><span class="p">(</span><span class="nx">details</span><span class="p">)</span> <span class="p">{</span>
-</span><span class='line'>  <span class="nx">details</span><span class="p">.</span><span class="nx">requestHeaders</span><span class="p">.</span><span class="nx">push</span><span class="p">({</span>
-</span><span class='line'>          <span class="nx">name</span><span class="o">:</span> <span class="s1">&#39;X-Forwarded-For&#39;</span><span class="p">,</span>
-</span><span class='line'>                 <span class="nx">value</span><span class="o">:</span> <span class="nx">unblock_youku</span><span class="p">.</span><span class="nx">ip_addr</span>
-</span><span class='line'>          <span class="p">});</span>
-</span><span class='line'>  <span class="k">return</span> <span class="p">{</span><span class="nx">requestHeaders</span><span class="o">:</span> <span class="nx">details</span><span class="p">.</span><span class="nx">requestHeaders</span><span class="p">};</span>
-</span><span class='line'><span class="p">}</span>
-</span></code></pre></td></tr></table></div></figure>
 
 
 
-
-<figure class='code'><figcaption><span>Using China IP prefix</span><a href='https://github.com/whuhacker/Unblock-Youku/blob/master/shared/tools.js'>github link</a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-</pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="kd">function</span> <span class="nx">new_random_ip</span><span class="p">()</span> <span class="p">{</span>
-</span><span class='line'>      <span class="kd">var</span> <span class="nx">ip_addr</span> <span class="o">=</span> <span class="s1">&#39;220.181.111.&#39;</span><span class="p">;</span>
-</span><span class='line'>          <span class="nx">ip_addr</span> <span class="o">+=</span> <span class="nb">Math</span><span class="p">.</span><span class="nx">floor</span><span class="p">(</span><span class="nb">Math</span><span class="p">.</span><span class="nx">random</span><span class="p">()</span> <span class="o">*</span> <span class="mi">254</span> <span class="o">+</span> <span class="mi">1</span><span class="p">);</span> <span class="c1">// 1 ~ 254</span>
-</span><span class='line'>      <span class="k">return</span> <span class="nx">ip_addr</span><span class="p">;</span>
-</span><span class='line'><span class="p">}</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>加埋哩個EXTENSION 仲可以去除廣告！!</p>
-
-<p><a href="https://chrome.google.com/webstore/detail/%E5%9C%9F%E8%B1%86%E5%B9%BF%E5%91%8A%E5%8E%BB%E9%99%A4/eiejngbnffociggnndjfgpdcpifljjgf?hl=zh-TW">https://chrome.google.com/webstore/detail/%E5%9C%9F%E8%B1%86%E5%B9%BF%E5%91%8A%E5%8E%BB%E9%99%A4/eiejngbnffociggnndjfgpdcpifljjgf?hl=zh-TW</a></p>
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-06-15T19:02:00+08:00" pubdate data-updated="true">Jun 15<span>th</span>, 2013</time></div>
-	<div class="tags">
-
-
-	<a class='category' href='/blog/categories/chrome-extension/'>chrome-extension</a>, <a class='category' href='/blog/categories/tools/'>tools</a>
-
-
+<section id="comment">
+    <h2 class="title">Comments</h2>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 </div>
-	
-		<div class="comments"><a href="/blog/2013/06/15/xi-xiang-gang-di-qu-di-youku//index.html#disqus_thread">Comments</a></div>
-	
-</div></article>
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2013/05/20/git-hub-not-sync-with-octopress/">
-		
-			Octopress Not Sync With Git Hub?</a>
-	</h2>
-	<div class="entry-content">
-		<p>I found that when we work on Octopress with Github Pages
-after I make a new post and run <code>rake deploy</code>
-It doesn&rsquo;t take effect immediately.
-Actaully we need to wait for a while for <code>new post</code> or <code>new delete post</code> or <code>_config.yml</code>
-However, for editing a current file, it will take the effect automatically.</p>
-
-<p>We need to beware of that.</p>
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-05-20T23:44:00+08:00" pubdate data-updated="true">May 20<span>th</span>, 2013</time></div>
-	<div class="tags">
-
-
-	<a class='category' href='/blog/categories/technology/'>technology</a>, <a class='category' href='/blog/categories/tools/'>tools</a>
-
-
+</section>
 </div>
-	
-		<div class="comments"><a href="/blog/2013/05/20/git-hub-not-sync-with-octopress//index.html#disqus_thread">Comments</a></div>
-	
-</div></article>
-
-<nav id="pagenavi">
-    
-    
-    <div class="center"><a href="/blog/archives">Blog Archives</a></div>
-</nav></div>
 	<footer id="footer" class="inner">Copyright &copy; 2013
 
     Kit Ho (kithokit)
@@ -419,7 +238,10 @@ However, for editing a current file, it will take the effect automatically.</p>
       var disqus_shortname = 'skycubemessage';
       
         
-        var disqus_script = 'count.js';
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://kithokit.github.io/blog/2013/07/04/ruby-%7C%7C/';
+        var disqus_url = 'http://kithokit.github.io/blog/2013/07/04/ruby-%7C%7C/';
+        var disqus_script = 'embed.js';
       
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;

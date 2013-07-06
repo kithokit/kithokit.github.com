@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: ruby | Skycube]]></title>
+  <link href="http://kithokit.github.io/blog/categories/ruby/atom.xml" rel="self"/>
+  <link href="http://kithokit.github.io/"/>
+  <updated>2013-07-06T18:19:47+08:00</updated>
+  <id>http://kithokit.github.io/</id>
+  <author>
+    <name><![CDATA[Kit Ho (kithokit)]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Ruby ||= operator]]></title>
+    <link href="http://kithokit.github.io/blog/2013/07/04/ruby-%7C%7C/"/>
+    <updated>2013-07-04T12:17:00+08:00</updated>
+    <id>http://kithokit.github.io/blog/2013/07/04/ruby-||</id>
+    <content type="html"><![CDATA[<p>This topic is talked about ruby ||= and || operator
+It is always confused with ruby newbie</p>
+
+<p><code>||=</code> will set the left-hand value to the right hand value only if the left-hand value is <code>falsey OR undefined</code>.</p>
+
+<p>Example 1, if <code>a</code> is defined as 4, using <code>a ||= 5</code> will still output 4</p>
+
+<p>``` ruby</p>
+
+<blockquote><blockquote><p>a = 4
+=> 4
+a ||= 5
+=> 4
+```</p></blockquote></blockquote>
+
+<p>Example 2, if <code>b</code> is undefined</p>
+
+<p>``` ruby</p>
+
+<blockquote><blockquote><p>b ||= 5
+=> 5
+```</p></blockquote></blockquote>
+
+<p>Example 3, if <code>c</code> is false
+``` ruby</p>
+
+<blockquote><blockquote><p>c = false
+=> false
+c ||= 8
+=> 8
+```</p></blockquote></blockquote>
+
+<p>Example 4, if <code>d</code> is true
+``` ruby</p>
+
+<blockquote><blockquote><p>d = true
+=> true
+d ||= 9
+=> true
+```</p></blockquote></blockquote>
+
+<p>|| operator
+if left hand side is <code>false/nil</code>, it will evaluate to right hand side</p>
+
+<p>```ruby</p>
+
+<blockquote><blockquote><p>a = 6 || 4 # 6 is true
+=> 6
+a = false || 4 # false is false
+=> 4
+a = true || 4 # true is true
+=> true
+a = nil || 4 # nil will also treat to right hand side
+=> 4
+a = banana || 4 # except undefined
+NameError: undefined local variable or method `t' for main:Object</p>
+
+<pre><code>from (irb):26
+</code></pre>
+
+<p>```</p></blockquote></blockquote>
+
+<p>I wish you can find it useful!</p>
+]]></content>
+  </entry>
+  
+</feed>
