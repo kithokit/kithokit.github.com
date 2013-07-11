@@ -10,10 +10,13 @@ My name is Kit Ho. I am a software Engineer living in Hong Kong.
 
 My Skills are focused on : Ruby on Rails, Sinatra, Puppet
 
+I like automation. I don't like repetitive works.
+
+I always try to make or hack my development tools to make myself to be more productivity.
+
+
 
 I love Cat very much.
-
 Good if you can follow me on twitter
-
-{% img left http://placekitten.com/320/250 Place Kitten #2 %}
+Feel free to chat with me
 
